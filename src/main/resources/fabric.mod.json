@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "parasiticoverlordmod",
+  "version": "1.0.0",
+  "name": "Parasitic Overlord Mod",
+  "description": "A Fabric mod for MCPE featuring a 4-stage evolving titan with exponential growth mechanics, advanced tracking systems, and specialized player gear.",
+  "authors": ["CrafterEphraimMiazi"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.crafterephraimmiazi.parasiticoverlordmod.ParasiticOverlordMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*"
+  }
+}
